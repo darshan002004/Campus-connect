@@ -1,0 +1,21 @@
+{
+  "name": "campusconnect-root",
+  "version": "1.0.0",
+  "description": "CampusConnect - College Event Management System (MCA Final Year Project)",
+  "scripts": {
+    "install-all": "npm install --prefix backend && npm install --prefix frontend",
+    "seed": "npm run seed --prefix backend",
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "build:frontend": "npm run build --prefix frontend"
+  },
+  "keywords": [
+    "react",
+    "express",
+    "mongodb",
+    "college-event-management",
+    "mca-project"
+  ],
+  "author": "Darshan B",
+  "license": "ISC"
+}
